@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.menu-section, .order-summary {
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#menuTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#menuTable th, #menuTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#menuTable th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#menuTable td {
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button[disabled] {
+    background-color: #ccc;
+}
+
+#orderList {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#submitOrder {
+    margin-top: 10px;
+}
+
+.order-summary p {
+    font-size: 18px;
+}
